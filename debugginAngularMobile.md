@@ -3,13 +3,13 @@
 El proposito de la siguiente documentación es **plantear** de manera sencilla los pasos a seguir para **debuggear** una aplicación web **Angular**; teniendo en cuenta que nuestra aplicación puede necesitar comunicarse a un **backend** o utilizar algun motor de base de datos en memoria como **Redis**. A continuación 
 
 - [Debuggear Proyecto de Angular desde dispositivo móvil](#debuggear-proyecto-de-angular-desde-dispositivo-m%c3%b3vil)
-  - [# Configurando nuestro dispositivo móvil](#h1-id%22configurando-nuestro-dispositivo-mc3b3vil-412%22configurando-nuestro-dispositivo-m%c3%b3vilh1)
+  - [# Configurando nuestro dispositivo móvil](#h1-id%22configurando-nuestro-dispositivo-mc3b3vil-518%22configurando-nuestro-dispositivo-m%c3%b3vilh1)
 
 
 # Configurando nuestro dispositivo móvil
 ---
 
-Para poder realizar el *"debugging"* en tiempo real de nuestra aplicación movil desde nuestro dispositivo es necesario activar el **modo desarrollador** para activar las funcionalidades/herramientas que este modo ofrece. [^test]
+Para poder realizar el *"debugging"* en tiempo real de nuestra aplicación web desde nuestro dispositivo es necesario activar el **modo desarrollador** para activar las funcionalidades/herramientas que este modo ofrece.
 
 > **Importante:** En dado caso de tener habilitado el modo en tu dispositivo puedes omitir este paso.
 
@@ -32,3 +32,15 @@ Una vez nos encontremos en la interfaz de **Información de software** solo tien
 Desde este momento tu dispositivo ya cuenta con el **modo desarrollador** activado y las **opciones de desarrollador** deben encontrarse visibles y disponibles en la interfaz de **ajustes**.
 
 <img src="resources/img/Screenshot_20200319-123017_Settings.jpg" title="developerOptions" width="25%" height="25%">
+
+<!-- [TODO] 
+MEJORAR LA TABLA DE CONTENIDOS Y SU NAVEGACION
+AGREGAR LA CONFIGURACION DEL NAVEGADOR EN ESPECIFICO CHROME
+    chrome://inspect/devices#devices
+AGREGAR COMO LEVANTAR EL SERVIDOR DE ANGULAR EN UNA DIRECCION ESPECIFICA
+tend>ng serve --ec=true --host=192.168.1.59
+AGREGAR COMO LEVANTAR EL SERVIDOR DE LARAVEL EN UNA RUTA ESPECIFICA
+php artisan serve --host [IP]
+AGREGAR COMO SOLUCIONAR EL PROBLEMA CON REDIS
+modificacion de .env para el correcto funcionamiento de redis
+-->
